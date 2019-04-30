@@ -118,7 +118,7 @@ public:
         // release ASAP to avoid it where possible.
 	    
 	// String 'rem-' is added to set it to be invalid. Need to update this when there is a new seed.
-        vSeeds.emplace_back("seeder.btcsha3.rem-com"); // Supports x1, x5, x9, and xd
+        vSeeds.emplace_back("dnsseed.bsha3.us"); // Supports x1, x5, x9, and xd
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,83);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,88);
